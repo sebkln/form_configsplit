@@ -1,0 +1,21 @@
+# Frontend-related form configuration for website "Laurel Corporation".
+#
+# We can set individual path to language files and templates,
+# as well as set custom CSS classes via properties.
+prototypes:
+  standard:
+    formElementsDefinition:
+      Form:
+        renderingOptions:
+          translation:
+            translationFiles:
+              501: 'EXT:form_configsplit/Resources/Private/Language/locallang_laurel.xlf'
+          templateRootPaths:
+            501: 'EXT:form_configsplit/Resources/Private/Frontend/Laurel/Templates/'
+          partialRootPaths:
+            501: 'EXT:form_configsplit/Resources/Private/Frontend/Laurel/Partials/'
+          layoutRootPaths:
+            501: 'EXT:form_configsplit/Resources/Private/Frontend/Laurel/Layouts/'
+      Textarea:
+        properties:
+          elementClassAttribute: 'textarea--laurel'

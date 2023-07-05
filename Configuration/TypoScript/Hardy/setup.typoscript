@@ -1,0 +1,5 @@
+// Load the frontend-related configuration for website "Hardy Limited".
+// For details, see "Configuration/TCA/Overrides/sys_template.php".
+plugin.tx_form.settings.yamlConfigurations {
+    502 = EXT:form_configsplit/Configuration/Form/FrontendHardyLimited.yaml
+}

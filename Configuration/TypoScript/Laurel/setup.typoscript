@@ -1,0 +1,5 @@
+// Load the frontend-related configuration for website "Laurel Corporation".
+// For details, see "Configuration/TCA/Overrides/sys_template.php".
+plugin.tx_form.settings.yamlConfigurations {
+    501 = EXT:form_configsplit/Configuration/Form/FrontendLaurelCorporation.yaml
+}

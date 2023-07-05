@@ -1,0 +1,8 @@
+# Global form configuration
+#
+# These properties are needed by frontend and backend!
+persistenceManager:
+  allowedExtensionPaths:
+    500: EXT:form_configsplit/Resources/Private/Forms/
+  allowSaveToExtensionPaths: true
+  allowDeleteFromExtensionPaths: true

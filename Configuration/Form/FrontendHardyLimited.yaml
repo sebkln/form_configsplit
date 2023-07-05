@@ -1,0 +1,21 @@
+# Frontend-related form configuration for website "Hardy Limited".
+#
+# We can set individual path to language files and templates,
+# as well as set custom CSS classes via properties.
+prototypes:
+  standard:
+    formElementsDefinition:
+      Form:
+        renderingOptions:
+          translation:
+            translationFiles:
+              502: 'EXT:form_configsplit/Resources/Private/Language/locallang_hardy.xlf'
+          templateRootPaths:
+            502: 'EXT:form_configsplit/Resources/Private/Frontend/Hardy/Templates/'
+          partialRootPaths:
+            502: 'EXT:form_configsplit/Resources/Private/Frontend/Hardy/Partials/'
+          layoutRootPaths:
+            502: 'EXT:form_configsplit/Resources/Private/Frontend/Hardy/Layouts/'
+      Textarea:
+        properties:
+          elementClassAttribute: 'textarea--hardy'

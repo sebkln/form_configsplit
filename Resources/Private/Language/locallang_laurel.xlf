@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:form_configsplit/Resources/Private/Language/Laurel/locallang.xlf" date="2023-07-02T17:25:00Z"
+		  product-name="form_configsplit">
+		<header/>
+		<body>
+			<trans-unit id="element.emailAddress.properties.placeholder">
+				<source>stan@laurel.com</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
